@@ -1,0 +1,95 @@
+.header{
+    background-image: url(./bg.jpg);
+    /* max-height: 50vh; */
+    height: 307px;
+}
+.navbar{
+    background-color: rgba(0, 255, 255, 0) !important;
+}
+.nav-text{
+    color: #E67F56 !important;
+    font-weight: 500;
+    font-size: 17px;
+
+}
+.droite{
+    display: flex;
+    justify-content: end;
+}
+.profil{
+    max-width: 10%;
+    max-height: 10%;
+    min-width: 120px;
+    min-height: 120px;
+    border-radius: 50%;
+}
+.center{
+    text-align: center;
+}
+.bloc-profil{
+    margin-top: 10px;
+    /* padding-bottom: 52px; */
+}
+.bloc-profil-text{
+    margin-top: 15px;
+    text-align: center;
+    color: #F2B778 !important;
+    font-weight: 500;
+    font-size: 25.2px;
+    margin-bottom: 15px;
+
+}
+.main{
+    background-color: #FFD1A0;  
+}
+
+.icon-color{
+    color: #FFD1A0 ;
+    background-color: #2E0719 ;
+    padding: 7px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 15px;
+    text-align: center;
+}
+.icons{
+    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+    
+}
+.test{
+    margin-bottom: 10px;
+    /* z-index: 7; */
+}
+@media screen and (min-width: 451px)
+{
+    .bloc-profil-text{
+        margin-bottom: 25px;
+    }
+    .header{
+        height: 280px;
+    }
+    .icon-color{
+        margin-left: 28px;
+    }
+}
+@media screen and (min-width: 990px) and (max-width : 1800px)
+{
+    .bloc-profil-text{
+        margin-bottom: 20px;
+    }
+    .header{
+        height: 316px;
+    }
+    .icon-color{
+        margin-left: 35px;
+    }
+    .profil{
+        /* max-width: 15%;
+        max-height: 15%; */
+        min-width: 160px;
+        min-height: 160px;
+    }
+}
